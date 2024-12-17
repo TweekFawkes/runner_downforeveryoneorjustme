@@ -1,7 +1,7 @@
 runner:
-  title: Down For Everyone Or Just Me
+  name: Down For Everyone Or Just Me
   description: Check if a website is down for everyone or just you.
-  version: 0.0.1
+  version: 0.0.2
 
 webform:
   - name: domain_name
