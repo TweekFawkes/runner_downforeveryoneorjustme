@@ -1,0 +1,12 @@
+runner:
+  title: Down For Everyone Or Just Me
+  description: Check if a website is down for everyone or just you.
+  version: 0.0.1
+
+webform:
+  - name: domain_name
+    prompt: domain_name
+    type: text
+
+launch:
+  command: app.py --domain_name ${domain_name}
